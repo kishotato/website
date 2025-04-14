@@ -9,8 +9,22 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "name" "enterbtn" "links";
 }
   h1 {
-    color: red;
+    color: white;
+    grid-area: name;
   }
 
+  .btn {
+    grid-area: enterbtn;
+  }
+
+  .links {
+    grid-area: links;
+  }
+
+ 
