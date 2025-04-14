@@ -1,14 +1,23 @@
 * {
     box-sizing: border-box;
 }
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     font-family: Gill Sans MT;
     background-image: url("img/sarek.jpg");
-    background-size: cover;
-    background-position: center;
+    background-size:cover;
     background-repeat: no-repeat;
+    background-clip: inherit;
     text-align: center;
 }
 
@@ -16,17 +25,45 @@ body {
     display: grid;
     row-gap: 20px;
     grid-template-columns: 1fr;
-    grid-template-areas: "name" "enterbtn" "links";
+    grid-template-areas:
+     "name"
+     "enterbtn" 
+     "links";
     place-items:center;
   
 }
+
+.title-name {
+    grid-area: name;
+    padding: 0;
+    margin: 0;
+
+}
+
   h1 {
     color: white;
-    grid-area: name;
+    font-style: Franklin Gothic;
+    font-size: 60px;
+    
   }
 
   .btn {
     grid-area: enterbtn;
+    background-color: white;
+    opacity: 50%;
+    border: none;
+    border-radius: 15px;
+    width: 75px;
+    height: 30px;
+    font-weight: bold;;
+    font-size: 12px;
+  }
+
+  .btn:hover {
+    opacity: 30%;
+    width: 73px;
+    height: 28px;
+    font-size: 11px;
   }
 
   .links {
@@ -36,8 +73,13 @@ body {
   .icon {
     height: 40px;
     width: 40px;
+    border: none;
     border-radius: 100%;
     position: relative;
+  }
+
+  .icon:hover {
+    opacity: 80%
   }
 
   .photo
@@ -53,5 +95,9 @@ body {
 
   .photo.gmail {
     position: center;
+  }
+
+  a {
+    text-decoration: none;
   }
  
