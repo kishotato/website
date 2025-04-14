@@ -16,7 +16,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: Gill Sans MT;
+    font-family: "Libre Franklin" , sans-serif;
     background-image: url("img/sarek-wp.webp");
     background-size: cover;
     background-repeat:no-repeat;
@@ -51,10 +51,10 @@ body {
 
   h1 {
     color: white;
-    font-style: Franklin Gothic;
+    font-style: "Libre Franklin", sans-serif;
     font-size: 60px;
     margin: 0;
-    
+
   }
 
   .btn {
