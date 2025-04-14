@@ -13,7 +13,8 @@ body {
     row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "enterbtn" "links";
-    justify-content:center;
+    place-items:center;
+    text-align: center;
 }
   h1 {
     color: white;
