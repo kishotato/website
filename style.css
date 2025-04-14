@@ -9,12 +9,16 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.page-grid {
     display: grid;
     row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "enterbtn" "links";
     place-items:center;
-    text-align: center;
+  
 }
   h1 {
     color: white;
