@@ -33,6 +33,8 @@ body {
      "enterbtn" 
      "links";
     place-items:center;
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: both;
   
 }
 
@@ -115,4 +117,13 @@ body {
   a {
     text-decoration: none;
   }
- 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* subtle slide-up */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
