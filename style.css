@@ -28,8 +28,17 @@ body {
   }
 
   .icon {
-    height: 20px;
-    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    position: relative;
+  }
+
+  .photo
+  {
+    height: 30px;
+    width: 30px;
+    position: relative;
   }
 
  
