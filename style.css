@@ -42,4 +42,12 @@ body {
     position: relative;
   }
 
+  .instagram.icon {
+    top: 1px;
+  }
+
+  .gmail.icon {
+    top: 1px;
+    left:1px;
+  }
  
