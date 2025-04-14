@@ -18,10 +18,11 @@ body {
     background-image: url("img/sarek-wp.webp");
     background-size:cover;
     background-repeat: no-repeat;
-    background-clip: inherit;
+    background-clip:inherit;
+    background-position: center;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh;
+   
 }
 
 .page-grid {
@@ -53,6 +54,7 @@ body {
     color: white;
     font-style: Franklin Gothic;
     font-size: 60px;
+    margin: 0;
     
   }
 
