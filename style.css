@@ -24,6 +24,7 @@ body {
 }
 
 .page-grid {
+    width: 100%;
     display: grid;
     row-gap: 25px;
     grid-template-columns: 1fr;
@@ -39,6 +40,8 @@ body {
     grid-area: name;
     padding: 0;
     margin: 0 ;
+    width: 100%;
+    text-align: center;
 
 }
 
