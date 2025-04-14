@@ -13,7 +13,7 @@ body {
     row-gap: 20px;
     grid-template-columns: 1fr;
     grid-template-areas: "name" "enterbtn" "links";
-    align-items: center;
+    justify-content:center;
 }
   h1 {
     color: white;
@@ -47,7 +47,6 @@ body {
   }
 
   .photo.gmail {
-    top: 1px;
-    left:1px;
+    position: center;
   }
  
