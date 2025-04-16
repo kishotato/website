@@ -88,6 +88,7 @@ nav.name {
     text-transform: uppercase;
     align-items: center;
     text-align: center;
+    
 
 }
 .nav-icons {
@@ -284,7 +285,7 @@ nav.name {
 @media (max-width: 840px) {
   
 .name {
-    font-size: 25px;
+    font-size: 22px;
     white-space: nowrap;
 }    
     
@@ -304,7 +305,7 @@ nav.name {
  }
 
  .menu-icon {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500;
     cursor: pointer;
     user-select: none;
@@ -321,8 +322,12 @@ nav.name {
     max-width: 100%;
 }
 
+.portfolio  {
+    margin: -20px 0 0 0;
+}
+}
 .portfolio-title {
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Libre Franklin", sans-serif;
     font-weight: 650;
     padding: 0;
