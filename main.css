@@ -6,7 +6,7 @@ body {
     margin: 20px 20px;
     padding: 0;
     font-family: "Inter" , sans-serif;
-    animation: fadeIn 1s ease-out;
+    animation: fadeIn 1.5s ease-out;
 }
 
 .nav-header-mobile {
@@ -244,6 +244,22 @@ nav.name {
     cursor: pointer;
 }
 
+.landscape:active .landscape-box,
+.travel:active .travel-box,
+.portrait:active .portrait-box {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.landscape:active .landscape-img,
+.portrait:active .portrait-img,
+.travel:active .travel-img {
+    filter: brightness(65%); 
+    cursor: pointer;
+}
+
+
 .travel-img,
 .portrait-img,
 .landscape-img {
@@ -304,6 +320,7 @@ nav.name {
     display: none;
  }
 
+
  .menu-icon {
     font-size: 23px;
     font-weight: 500;
@@ -324,7 +341,6 @@ nav.name {
 
 .portfolio  {
     margin: -20px 0 0 0;
-}
 }
 .portfolio-title {
     font-size: 22px;
