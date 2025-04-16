@@ -244,22 +244,6 @@ nav.name {
     cursor: pointer;
 }
 
-.landscape:active .landscape-box,
-.travel:active .travel-box,
-.portrait:active .portrait-box {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-.landscape:active .landscape-img,
-.portrait:active .portrait-img,
-.travel:active .travel-img {
-    filter: brightness(65%); 
-    cursor: pointer;
-}
-
-
 .travel-img,
 .portrait-img,
 .landscape-img {
@@ -281,21 +265,6 @@ nav.name {
     justify-content: center;
     position: relative;
     margin: 140px 0 140px 0;
-}
-
-@media (hover: none) {
-    .landscape-img:active,
-    .portrait-img:active,
-    .travel-img:active {
-        filter: brightness(65%);
-    }
-
-    .landscape-box:active,
-    .portrait-box:active,
-    .travel-box:active {
-        background-color: black;
-        color: white;
-    }
 }
 
 @keyframes fadeIn {
