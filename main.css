@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px 20px;
+    padding: 0;
+    font-family: "Inter" , sans-serif;
+}
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid rgba(236, 236, 236, 0.6);
+    margin: 0 100px;
+    position: relative;
+   }
+   
+
+.navigation {
+    display: flex;
+    align-items: center;
+    
+   }
+
+.nav-menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color:#A9A9A9;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation,
+.nav-icons {
+  flex: 1;
+}
+
+.nav-menu-items {
+    margin: 0 15px;
+    padding: 0 1px; 
+}
+
+.nav-menu-items.work {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+.nav-menu-items:hover {
+    font-weight: 400;
+    padding: 0 1px;
+    transition: 0.3s;
+}
+
+
+nav.name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+
+}
+.nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.photo.linkedin {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: -1px;
+    
+}
+
+.photo.instagram {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 3px;
+    
+}
+
+.photo.gmail {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 1.5px;
+    
+}
+
+.icon {
+    border: none;
+    background-color: rgba(0,0,0,0);
+    margin: 0 8px;
+}
+
+.portfolio {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.portfolio-title {
+    font-size: 55px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 650;
+    padding: 0;
+    margin: 100px 0 15px 0;
+}
+
+.portfolio-text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #A9A9A9; 
+    padding: 0;
+    margin: 5px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    width: 100%
+
+}
+
+
+.landscape-img {
+     background-image: url("img/landscape-wp.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 480px;
+    width: 700px;  
+}
+
+
+.travel-img {
+    background-image: url("img/travel-wp.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 480px;
+    width: 700px;   
+}
+
+.portrait-img {
+    background-image: url("img/portrait-wp.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 480px;
+    width: 700px;  
+}
+
+.box {
+    display: flex;
+    background-color: #F2F2F2;
+    height: 480px;
+    width: 450px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Libre Franklin", sans-serif;
+}
+.portrait,
+.travel,
+.landscape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.landscape:hover .landscape-box,
+.travel:hover .travel-box,
+.portrait:hover .portrait-box {
+    background-color: black;
+    color: white;
+}
+
+.landscape:hover .landscape-img,
+.portrait:hover .portrait-img,
+.travel:hover .travel-img {
+    filter: brightness(65%); 
+}
+
+.travel-img,
+.portrait-img,
+.landscape-img {
+    transition: filter 0.3s ease;
+}
+.travel-box,
+.portrait-box,
+.landscape-box {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.footer {
+    font-size: 12px;
+    font-weight: normal;
+    color: #A9A9A9;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 140px 0 140px 0;
+}
