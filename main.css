@@ -283,6 +283,21 @@ nav.name {
     margin: 140px 0 140px 0;
 }
 
+@media (hover: none) {
+    .landscape-img:active,
+    .portrait-img:active,
+    .travel-img:active {
+        filter: brightness(65%);
+    }
+
+    .landscape-box:active,
+    .portrait-box:active,
+    .travel-box:active {
+        background-color: black;
+        color: white;
+    }
+}
+
 @keyframes fadeIn {
     from {
       opacity: 0;
